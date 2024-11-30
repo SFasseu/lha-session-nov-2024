@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma première page HTML</HTML:5></title>
+    
+</head>
+<body>
+    <h1>Titre de niveau 1</h1>
+    <h2>Titre de niveau 2</h2>
+    <h3>Titre de niveau 3</h3>
+    <p>Titre de niveau 3</p>
+    <h2>Titre de niveau 2</h2>
+    <p>text en <b>gras</b></p>
+    <p>text en <i>Italic</i></p>
+    <p>text <u>souligné</u></p>
+    <p>the link to <a href="actuality.html">actuality</a></p>
+    <p>Click <a href="mailto:spacestore2@free.fr">spacestore2@free.fr</a></p>
+    <p>Appelez-moi <a href="Tel:+237650417792">+237650417792</a></p>
+    <p>Appelez-moi <a href="Tel:+237650417792">+237650417792</a></p>
+
+    
+    
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2
+             <ul>
+                <li> Element 1</li>
+                <li> Element 2</li>
+             </ul>
+            </li>
+
+        <li>Item 3</li>     
+    </ol>
+
+    <h4>Exercice 2: Composez une page ressemblant à l'image suivante</h2>
+    <p>Voici la premiere parti:</p>
+
+
+    <table border="2"  cellspacing="2" cellspading="5" width="40%"> 
+        <tr width="100%">
+            <td width="33"> un tableau</td>
+            <td width="33"></td>
+            <td width="33"></td>
+        </tr>
+        <tr width="100%">
+            <td width="33"></td>
+            <td width="33">a 6</td>
+            <td width="33">cases</td> 
+        </tr>
+
+      
+    </table>
+    
+
+    <h4>Voici la dieuxieme parti:</h4>
+
+    <h4>Une liste</h4>
+    <ol>
+        <li>Premier point</li>
+        <ul>
+            <li> Rubrique 1</li>
+            <li> Rubrique 2</li>
+     
+         </ul>
+         <li>Dieuxieme point</li> 
+
+        <li>Troisieme point
+             <ul>
+                <li> Rubrique 1</li>
+                <li> Rubrique 2</li>
+             </ul>
+            </li>     
+    </ol>
+
+    <h4>Voici la triosieme parti:</h4>
+
+
+    <table border="2" cellspacing="2" cellspading="2" width="50%">
+       <tr bgcolor="yellow">
+          <td>un autre tableau</td>
+          <td>L1C2</td>
+          <td>L1C3</td>
+          <td>L1C4</td>
+         
+       </tr>
+
+       <tr bgcolor="red">
+           <td rowspan="3"></td>
+           <td>L2C2</td>
+           <td rowspan="3"></td>
+           <td>L2C4</td>
+       </tr>
+   
+       <tr bgcolor="green">
+        <td>L3C2</td>
+        <td>table one</td> <td>table two</td>
+       </tr>
+
+       <tr
+        bgcolor="blue">
+        <td>L4C2</td>
+        <td>L4C4</td>
+       </tr>
+    </table>
+
+<h4>Exercice 3 : Un formulaire avec plein de choses !</h4>
+<p>Ecrivez le code HTML qui affiche le formulaire ci-dessous :</p>
+
+<form method="POST" action="traitement.php"></form>
+     <p>
+        <label for="pseudo"> Entrez votre pseudo: </label>
+        <input type="text" name="pseudo" id="pseudo"/> 
+    </p>
+    <p>  
+        <label for="passe"> Entrez votre mot de passe: </label>
+        <input type="password" name="passe" id="pseudo"/>  
+    </p>
+    <p>
+        <label for="passe"> Ressaisir votre mot de passe: </label>
+        <input type="password" name="passe" id="pseudo"/> 
+    </p> 
+
+    <p>OS prefere:
+    <form>
+         <input type="radio" id="html" name="favourite language" value="html">
+         <label for="Windows XP">Windows XP</label><br>
+
+         <input type="radio" id="html" name="favourite language" value="html">
+         <label for="Windows vista">Windows vista</label><br>
+
+         <input type="radio" id="html" name="favourite language" value="html">
+         <label for="MacOS X">MacOS X</label><br>
+
+         <input type="radio" id="html" name="favourite language" value="html">
+         <label for="Linux">Linux</label><br>
+
+         <input type="radio" id="html" name="favourite language" value="html">
+         <label for="autre">autre</label><br>
+        </p>
+</form>
+    
+</p> 
+
+<p>Vous possedez:
+<form>
+     <input type="checkbox" id="html" name="favourite language" value="html">
+     <label for="Un ordinateur de bureau">Un ordinateur de bureau</label><br>
+
+     <input type="checkbox" id="html" name="favourite language" value="html">
+     <label for="Un portable">Un portable</label><br>
+
+     <input type="checkbox" id="html" name="favourite language" value="html">
+     <label for="Un netbook">Un netbook</label><br>
+
+     <input type="checkbox" id="html" name="favourite language" value="html">
+     <label for="Une tablette(PAD)">Un netbook</label><br>
+    </p>
+
+
+    <form method="post" action="traitement.php">
+        <p>
+    <label for="pays">Votre profession:" <br><br/></label>
+    
+    <select name="pays" id="pays">
+    <optgroup label="chomeur"></optgroup>
+    <optgroup label="etudiant"></optgroup>
+    <optgroup label="Fontionnaire"></optgroup>
+    <optgroup label="Prive"></optgroup>
+    <optgroup label="Retrait"></optgroup>
+    </optgroup>
+    </select>
+    </p>
+    </form>
+
+<h4>Exercice 4 :Réalisez un mini site comprenant votre CV selon le descriptif suivant:</h4>
+
+<table border="1" cellspacing="2" cellspading="2" width="70%">
+    <tr>
+       <td> <li>prenom</li>
+             <li>nom</li>
+             <li>Addresse</li>
+             <li>Date de naissance</li>
+             <h4>Formation</h4>      
+       </td>
+       <td VALIGN="TOP"> <li>ivan loic</li>
+        <li>sappi</li>
+        <li>Vallee bessengue,Akwa</li>
+        <li>03/07/1998</li></td>
+    </tr>
+
+
+    <tr>
+        <td><li>2000-2001</li>
+        <li>2001-2002</li>
+        <h4>Experience professionnelle</h4>
+    </td>
+        <td VALIGN="TOP"></td>
+     </tr>
+
+
+     
+     <tr>
+        <td><li>2000-2001</li>
+            <li>2001-2002</li>
+            <h4>Competence</h4>
+        </td>
+        <td VALIGN="TOP"></td>
+     </tr>
+
+     <tr>
+        <td><li>2000-2001</li>
+            <li>2001-2002</li>
+            <h4>Information complimentaire</h4>
+        </td>
+        <td VALIGN="TOP"</td>
+     </tr>
+
+     <tr>
+        <td><li>2000-2001</li>
+            <li>2001-2002</li>
+        </td>
+        <td VALIGN="TOP"></td>
+     </tr>
+
+    </table>
+
+     
+     <H4>Exercice 5 :</H4>
+     <P>Faites un nouveau document HTML avec des cadres et reprenant le schéma suivant:</P>
+     
+     <table border="1"   width="70%">
+     <tr>
+        <td>CADRE QAUCHE
+            <li><a href="formation.html">formation</a></li>
+        </td>
+        <td rowspan="2">CADRE DROIT</td>
+    </tr>
+
+
+    <tr>
+        <td>KKK</td>
+      
+    </tr>
+                            
+           
+
+
+</table>
+
+
+
+</body>
+</html>
